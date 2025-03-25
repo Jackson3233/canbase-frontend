@@ -1,0 +1,196 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+
+    --primary: 240 5.9% 10%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+
+    --accent: 240 4.8% 95.9%;
+    --accent-foreground: 240 5.9% 10%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 240 10% 3.9%;
+
+    --radius: 0.5rem;
+
+    --custom-text: 158, 74%, 38%;
+    --custom-hover: 158, 74%, 38%, 0.75;
+    --custom-foreground: 158, 74%, 38%, 0.15;
+    --content: 240, 4%, 52%;
+  }
+
+  [data-theme="grey"] {
+    --custom-text: 0, 0%, 38%;
+    --custom-hover: 0, 0%, 38%, 0.75;
+    --custom-foreground: 0, 0%, 38%, 0.15;
+  }
+
+  [data-theme="red"] {
+    --custom-text: 0, 59%, 55%;
+    --custom-hover: 0, 59%, 55%, 0.75;
+    --custom-foreground: 0, 59%, 55%, 0.15;
+  }
+
+  [data-theme="orange"] {
+    --custom-text: 25, 87%, 59%;
+    --custom-hover: 25, 87%, 59%, 0.75;
+    --custom-foreground: 25, 87%, 59%, 0.15;
+  }
+
+  [data-theme="yellow"] {
+    --custom-text: 69, 74%, 70%;
+    --custom-hover: 69, 74%, 70%, 0.75;
+    --custom-foreground: 69, 74%, 70%, 0.15;
+  }
+
+  [data-theme="lime"] {
+    --custom-text: 155, 78%, 66%;
+    --custom-hover: 155, 78%, 66%, 0.75;
+    --custom-foreground: 155, 78%, 66%, 0.15;
+  }
+
+  [data-theme="teal"] {
+    --custom-text: 137, 47%, 61%;
+    --custom-hover: 137, 47%, 61%, 0.75;
+    --custom-foreground: 137, 47%, 61%, 0.15;
+  }
+
+  [data-theme="cyan"] {
+    --custom-text: 198, 75%, 60%;
+    --custom-hover: 198, 75%, 60%, 0.75;
+    --custom-foreground: 198, 75%, 60%, 0.15;
+  }
+
+  [data-theme="sky"] {
+    --custom-text: 198, 52%, 48%;
+    --custom-hover: 198, 52%, 48%, 0.75;
+    --custom-foreground: 198, 52%, 48%, 0.15;
+  }
+
+  [data-theme="violet"] {
+    --custom-text: 256, 75%, 60%;
+    --custom-hover: 256, 75%, 60%, 0.75;
+    --custom-foreground: 256, 75%, 60%, 0.15;
+  }
+
+  [data-theme="purple"] {
+    --custom-text: 263, 52%, 48%;
+    --custom-hover: 263, 52%, 48%, 0.75;
+    --custom-foreground: 263, 52%, 48%, 0.15;
+  }
+
+  [data-theme="pink"] {
+    --custom-text: 339, 75%, 60%;
+    --custom-hover: 339, 75%, 60%, 0.75;
+    --custom-foreground: 339, 75%, 60%, 0.15;
+  }
+
+  [data-theme="fuchsia"] {
+    --custom-text: 309, 52%, 48%;
+    --custom-hover: 309, 52%, 48%, 0.75;
+    --custom-foreground: 309, 52%, 48%, 0.15;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  background: white;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #dbdbdb;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #dbdbdb;
+  border-radius: 10px;
+}
+
+blockquote {
+  padding-left: 16px;
+  font-size: 14px;
+  line-height: 20px;
+  font-style: italic;
+  border-left: 3px solid #f4f4f5;
+}
+
+code {
+  position: relative;
+  background-color: #f4f4f5;
+  padding: 3px 5px 5px 3px;
+  font-size: 14px;
+  line-height: 20px;
+  font-style: normal;
+  font-family: monospace;
+  font-weight: 600;
+  border-radius: 4px;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 16px;
+}
+
+ol {
+  list-style-type: decimal;
+  padding-left: 16px;
+}
+
+li {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+p.is-editor-empty:first-child::before {
+  color: #a6a6a6;
+  content: attr(data-placeholder);
+  float: left;
+  height: 0;
+  pointer-events: none;
+}
+
+[contentEditable="true"]:empty:before {
+  content: attr(data-placeholder);
+  opacity: 0.6;
+}
+
+@layer utilities {
+  .card-shadow {
+    box-shadow: rgb(224, 224, 224) 0px 0px 1px, rgba(24, 39, 75, 0.01) 0px 1px 2px -2px, rgba(24, 39, 75, 0.03) 0px 2px 2px -2px;
+  }
+}

@@ -1,0 +1,271 @@
+[
+  {
+    "federalState": "Baden-Württemberg",
+    "licensingAuthority": {
+      "name": "Regierungspräsidium Freiburg (Referat 22 - Erlaubnis KCanG)",
+      "address": "Bissierstraße 7, 79098 Freiburg, Deutschland",
+      "phone": "497612081",
+      "email": "kcang.erlaubnis@rpf.bwl.de",
+      "website": "rp.baden-wuerttemberg.de/rpf",
+      "documents": [
+        {
+          "name": "Merkblatt zur Antragstellung KonsumCannabisG",
+          "url": "rp.baden-wuerttemberg.de/fileadmin/RP-Internet/Themenportal/Wirtschaft/Konsumcannabisgesetz/Merkblatt_zur_Antragstellung_KonsumCannabisG.pdf"
+        },
+        {
+          "name": "Informationen zur Antragstellung",
+          "url": "rp.baden-wuerttemberg.de/themen/wirtschaftsordnung-und-kontrolle/konsumcannabisgesetz/erlaubnispflicht-anbauvereinigungen"
+        }
+      ]
+    },
+    "supervisoryAuthority": {
+      "name": "Regierungspräsidium Tübingen (Referat 22 - Überwachung KCanG)",
+      "address": "Konrad-Adenauer-Straße 20, 72072 20, Deutschland",
+      "phone": "4970717570",
+      "email": "kcang.kontrolle@rpt.bwl.de",
+      "website": "rp.baden-wuerttemberg.de/rpt"
+    }
+  },
+  {
+    "federalState": "Bayern",
+    "licensingAuthority": {
+      "name": "Bayerisches Landesamt für Gesundheit und Lebensmittelsicherheit",
+      "address": "Eggenreuther Weg 43, 91058 Erlangen, Deutschland",
+      "email": "anbauvereinigungen@lgl.bayern.de",
+      "website": "www.lgl.bayern.de",
+      "documents": [
+        {
+          "name": "Informationen zur Antragsstellung",
+          "url": "www.lgl.bayern.de/downloads/produkte/doc/informationen_antragsstellung_anbauvereinigungen_kcang.pdf"
+        },
+        {
+          "name": "Online Antragsformular",
+          "url": "formularserver-bp.bayern.de/intelliform/forms/rzsued/stmgp/stmgp/kcang_antrag/index"
+        }
+      ]
+    }
+  },
+  {
+    "federalState": "Berlin",
+    "licensingAuthority": {
+      "name": "Bezirksämter (nicht bestätigt)",
+      "address": "Deutschland",
+      "website": "service.berlin.de/standorte/buergeraemter",
+      "documents": []
+    }
+  },
+  {
+    "federalState": "Brandenburg",
+    "licensingAuthority": {
+      "name": "Landesamt für Arbeitsschutz, Verbraucherschutz und Gesundheit (LAVG)",
+      "address": "Horstweg 57, 14478 Potsdam, Deutschland",
+      "email": "lavg.office@lavg.brandenburg.de",
+      "emailForQuestions": "konsumcannabisgesetz@msgiv.brandenburg.de",
+      "website": "msgiv.brandenburg.de",
+      "documents": [
+        {
+          "name": "Cannabis Informationen",
+          "url": "lavg.brandenburg.de/lavg/de/verbraucherschutz/cannabis"
+        },
+        {
+          "name": "Formular Antrag Anbauvereinigung",
+          "url": "lavg.brandenburg.de/sixcms/media.php/9/Formular%20Antrag%20Anbauvereinigung_V1_27062024_Version2.pdf"
+        }
+      ]
+    }
+  },
+  {
+    "federalState": "Bremen",
+    "licensingAuthority": {
+      "name": "Die Senatorin für Gesundheit, Frauen und Verbraucherschutz",
+      "address": "Deutschland",
+      "email": "verbraucherschutz@gesundheit.bremen.de",
+      "website": "www.gesundheit.bremen.de",
+      "documents": [
+        {
+          "name": "Cannabis Informationen",
+          "url": "www.gesundheit.bremen.de/verbraucherschutz/cannabis-49986"
+        },
+        {
+          "name": "Antragsformular",
+          "url": "www.gesundheit.bremen.de/sixcms/media.php/13/Antragsformular%20%C2%A711%20KCanG%20%28mit%20Schreibschutz%29.docx"
+        }
+      ]
+    }
+  },
+  {
+    "federalState": "Hamburg",
+    "licensingAuthority": {
+      "name": "Bezirksamt Hamburg-Altona - Fachamt Verbraucherschutz, Gewerbe und Umwelt Abteilung Gewerberecht, Marktwesen und Kapitel 4 KCanG Abschnitt Cannabis Anbauvereinigungen",
+      "address": "Jessenstraße 1-3, 22767 Hamburg, Deutschland",
+      "email": "cannabis-av@altona.hamburg.de",
+      "website": "www.hamburg.de",
+      "documents": [
+        {
+          "name": "Anbauvereinigungen Information",
+          "url": "www.hamburg.de/lebensmittel/18744112/anbauvereinigungen"
+        },
+        {
+          "name": "Handreichung zum Onlineverfahren Anbauvereinigung",
+          "url": "www.hamburg.de/resource/blob/929512/4354332b927a38de898684650da49541/handreichung-zum-onlineverfahren-anbauvereinigung-data.pdf"
+        }
+      ]
+    }
+  },
+  {
+    "federalState": "Hessen",
+    "licensingAuthority": {
+      "name": "Regierungspräsidium Darmstadt",
+      "address": "Luisenplatz 2, 64283 Darmstadt, Deutschland",
+      "email": "cannabisgesetz@rpda.hessen.de",
+      "website": "innen.hessen.de",
+      "documents": [
+        {
+          "name": "Cannabisgesetz Information",
+          "url": "rp-darmstadt.hessen.de/sicherheit-und-kommunales/cannabisgesetz"
+        },
+        {
+          "name": "Online Antragsformular",
+          "url": "portal-civ-hel.ekom21.de/civ-hel.public/start.html?oe=00.00.HE.RP.DA.KCanG&app=KCanG_Serviceportal"
+        }
+      ]
+    }
+  },
+  {
+    "federalState": "Mecklenburg-Vorpommern",
+    "licensingAuthority": {
+      "name": "Landesamt für Landwirtschaft, Lebensmittelsicherheit und Fischerei in Rostock (LALLF)",
+      "address": "Deutschland",
+      "website": "www.lallf.de",
+      "documents": []
+    }
+  },
+  {
+    "federalState": "Niedersachsen",
+    "licensingAuthority": {
+      "name": "Landwirtschaftskammer",
+      "address": "Mars-la-Tour-Straße 1 - 13, 26121 Oldenburg, Deutschland",
+      "phone": "49441801600",
+      "email": "cannabis@lwk-niedersachsen.de",
+      "website": "www.lwk-niedersachsen.de",
+      "documents": [
+        {
+          "name": "Cannabis Information",
+          "url": "www.lwk-niedersachsen.de/cannabis"
+        },
+        {
+          "name": "Checkliste für den Antrag",
+          "url": "www.lwk-niedersachsen.de/cannabis/news/41779_Checkliste_fuer_den_Antrag_nach_%C2%A7_11_KCanG"
+        }
+      ]
+    }
+  },
+  {
+    "federalState": "Nordrhein-Westfalen",
+    "licensingAuthority": {
+      "name": "Bezirksregierungen",
+      "address": "Bezirksübersicht",
+      "website": "www.mags.nrw/bezirksregierungen-nordrhein-westfalen",
+      "documents": []
+    }
+  },
+  {
+    "federalState": "Rheinland-Pfalz",
+    "licensingAuthority": {
+      "name": "Landesamt für Soziales Jugend, und Versorgung",
+      "address": "Rheinallee 97-101, 55118 Mainz, Deutschland",
+      "phone": "4961319670",
+      "email": "cannabis@lsjv.rlp.de",
+      "website": "lsjv.rlp.de",
+      "documents": [
+        {
+          "name": "Cannabis Information",
+          "url": "lsjv.rlp.de/themen/gesundheit/suchtpraevention/cannabis"
+        },
+        {
+          "name": "Papierantrag Anbauvereinigung",
+          "url": "lsjv.rlp.de/fileadmin/lsjv/Themen/Gesundheit/Suchtpraevention/Papierantrag_Anbauvereinigung.pdf"
+        }
+      ]
+    }
+  },
+  {
+    "federalState": "Saarland",
+    "licensingAuthority": {
+      "name": "Ministerium für Umwelt, Klima, Mobilität, Agrar und Verbraucherschutz",
+      "address": "Keplerstraße 18, 66117 Saarbrücken, Deutschland",
+      "email": "anbauvereinigung@umwelt.saarland.de",
+      "website": "www.saarland.de/lav/DE/home",
+      "documents": [
+        {
+          "name": "Cannabis Anbauvereinigungen Antrag",
+          "url": "www.saarland.de/SharedDocs/Downloads/DE/mukmav/verbraucherschutz/canabis_anbauvereinigungen_antrag.pdf?__blob=publicationFile&v=1"
+        },
+        {
+          "name": "Cannabis Anbauvereinigungen Information",
+          "url": "www.saarland.de/mukmav/DE/portale/verbraucherschutz/informationen/cannabis-anbauvereinigungen/cannabis-anbauvereinigungen"
+        }
+      ]
+    }
+  },
+  {
+    "federalState": "Sachsen",
+    "licensingAuthority": {
+      "name": "Landesdirektion Sachsen (LDS)",
+      "address": "Altchemnitzer Straße 41, 09120 Chemnitz, Deutschland",
+      "website": "www.lds.sachsen.de",
+      "documents": [
+        {
+          "name": "Soziales Information",
+          "url": "www.lds.sachsen.de/soziales/?ID=21543&art_param=1089"
+        },
+        {
+          "name": "Antragsformular",
+          "url": "fs.egov.sachsen.de/formserv/findform?shortname=smwa_lds_canna&formtecid=2&areashortname=142"
+        }
+      ]
+    }
+  },
+  {
+    "federalState": "Sachsen-Anhalt",
+    "licensingAuthority": {
+      "name": "Landesamt für Verbraucherschutz (LAV)",
+      "address": "Freiimfelder Straße 68, 06112 Halle (Saale), Deutschland",
+      "phone": "4934552162200",
+      "email": "lav-poststelle@sachsen-anhalt.de",
+      "website": "verbraucherschutz.sachsen-anhalt.de",
+      "documents": [
+        {
+          "name": "Pressemitteilung",
+          "url": "presse.sachsen-anhalt.de/staatskanzlei/2024/06/25/konsumcannabisgesetz-kabinett-legt-zustaendige-behoerde-fuer-anbauvereinigungen-fest"
+        }
+      ]
+    }
+  },
+  {
+    "federalState": "Schleswig-Holstein",
+    "licensingAuthority": {
+      "name": "Landeslabor Schleswig-Holstein (Lebensmittel-, Veterinär- und Umweltuntersuchungsamt)",
+      "address": "Deutschland",
+      "documents": [
+        {
+          "name": "Antrag Erlaubnis Information",
+          "url": "www.schleswig-holstein.de/DE/fachinhalte/V/verbraucherschutz/Downloads/Antrag_Erlaubnis_Cannabisanbau.html"
+        },
+        {
+          "name": "Antrag Erlaubnis Cannabisanbau",
+          "url": "www.schleswig-holstein.de/DE/fachinhalte/V/verbraucherschutz/Downloads/Antrag_Erlaubnis_Cannabisanbau.pdf?__blob=publicationFile&v=2"
+        }
+      ]
+    }
+  },
+  {
+    "federalState": "Thüringen",
+    "licensingAuthority": {
+      "name": "Thüringer Landesamt für Landwirtschaft und Ländlichen Raum (TLLLR)",
+      "address": "Deutschland",
+      "website": "tlllr.thueringen.de",
+      "documents": []
+    }
+  }
+]
